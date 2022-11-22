@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.compra{
+  width: 50px;
+  position: relative;
+}
+
+.circulo{
+  font-size: 13px;
+  background-color:rgb(255, 0, 0);
+  width: 20px;
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+
+}
