@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Card.css'
 
 
 export const Card = (
@@ -12,14 +13,14 @@ export const Card = (
 
 
   return (
-    <div>
+    <div className='cardContainer'>
           <h4>{titulo}</h4>
           <div>
-            <img src={img} alt={titulo} />
+            <img src={img} alt={titulo} className='imgCard' />
           </div>
           <p>${precio}</p>
           <Link to={`/item/${id}`}>
-          <button>Ver mas detalles</button>
+          <button className='buttonDetail'>Ver mas detalles</button>
           </Link>
     </div>
   )

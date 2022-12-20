@@ -10,11 +10,11 @@ const navbar = () => {
             <Link to={"/"}>
              <span className='text-white'>Home</span>
             </Link>
-            <Link>
-            <span className='text-white'>Productos</span>
+            <Link to={`./category/ParteSuperior`}>
+            <span className='text-white'>Parte superior</span>
             </Link>
-            <Link>
-            <span className='text-white'>Soporte</span>
+            <Link to={`./category/ParteInferior`}>
+            <span className='text-white'>Parte inferior</span>
             </Link>
             <CartWidget/>
         </div>
